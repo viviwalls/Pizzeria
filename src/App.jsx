@@ -1,16 +1,10 @@
 
 import './styles/App.css';
-
+import Card_categoria from './components/Card_categoria';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-       
-       <h1 className="text-3xl font-bold underline bg-red-600">
-      Hello world!
-        </h1>
-      
-      </header>
+      <Card_categoria/>
     </div>
   );
 }
